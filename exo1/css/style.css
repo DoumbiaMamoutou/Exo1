@@ -1,0 +1,42 @@
+body
+{
+/*    border: 2px dashed green;*/
+/*    border-radius: 10px;*/
+    height: 600px;
+    margin: 10px;
+    padding: 50px;
+    background: whitesmoke;
+}
+h1
+{
+    text-align: center;
+    font-style: italic;
+    color: rgba(201, 8, 85, 1);
+}
+#envoie
+{
+    float: none;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #c90855;
+    width: 50%;
+    margin-left: 200px;
+}
+#envoie input[type=submit]
+{
+    color: orange;
+    background-color: cyan;
+    font-size: 20px;
+    border-radius: 20px;
+    margin: 6px;
+    width: 100%;
+    display: block;
+}
+#envoie input[type=submit]:hover
+{
+    color: blue;
+    transition: all 2s ease-in;
+}
